@@ -61,7 +61,26 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				restaurant: {
+					gold: 'hsl(var(--restaurant-gold))',
+					'gold-foreground': 'hsl(var(--restaurant-gold-foreground))',
+					cream: 'hsl(var(--restaurant-cream))',
+					'warm-brown': 'hsl(var(--restaurant-warm-brown))',
+					'dark-brown': 'hsl(var(--restaurant-dark-brown))'
 				}
+			},
+			backgroundImage: {
+				'gradient-hero': 'var(--gradient-hero)',
+				'gradient-gold': 'var(--gradient-gold)',
+				'gradient-overlay': 'var(--gradient-overlay)'
+			},
+			boxShadow: {
+				'elegant': 'var(--shadow-elegant)',
+				'gold-glow': 'var(--shadow-gold-glow)'
+			},
+			transitionTimingFunction: {
+				'elegant': 'cubic-bezier(0.4, 0, 0.2, 1)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
